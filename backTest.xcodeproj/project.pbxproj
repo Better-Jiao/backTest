@@ -15,6 +15,7 @@
 		3C7482721C8ED7AE00E6F249 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C7482701C8ED7AE00E6F249 /* LaunchScreen.storyboard */; };
 		3C74827D1C8ED7AE00E6F249 /* backTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C74827C1C8ED7AE00E6F249 /* backTestTests.m */; };
 		3C7482881C8ED7AE00E6F249 /* backTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C7482871C8ED7AE00E6F249 /* backTestUITests.m */; };
+		3C7482971C8EDD0700E6F249 /* CustomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C7482961C8EDD0700E6F249 /* CustomViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		3C7482831C8ED7AE00E6F249 /* backTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = backTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C7482871C8ED7AE00E6F249 /* backTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = backTestUITests.m; sourceTree = "<group>"; };
 		3C7482891C8ED7AE00E6F249 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C7482951C8EDD0700E6F249 /* CustomViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomViewController.h; sourceTree = "<group>"; };
+		3C7482961C8EDD0700E6F249 /* CustomViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				3C7482661C8ED7AE00E6F249 /* AppDelegate.m */,
 				3C7482681C8ED7AE00E6F249 /* ViewController.h */,
 				3C7482691C8ED7AE00E6F249 /* ViewController.m */,
+				3C7482951C8EDD0700E6F249 /* CustomViewController.h */,
+				3C7482961C8EDD0700E6F249 /* CustomViewController.m */,
 				3C74826B1C8ED7AE00E6F249 /* Main.storyboard */,
 				3C74826E1C8ED7AE00E6F249 /* Assets.xcassets */,
 				3C7482701C8ED7AE00E6F249 /* LaunchScreen.storyboard */,
@@ -276,6 +281,7 @@
 				3C74826A1C8ED7AE00E6F249 /* ViewController.m in Sources */,
 				3C7482671C8ED7AE00E6F249 /* AppDelegate.m in Sources */,
 				3C7482641C8ED7AE00E6F249 /* main.m in Sources */,
+				3C7482971C8EDD0700E6F249 /* CustomViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
